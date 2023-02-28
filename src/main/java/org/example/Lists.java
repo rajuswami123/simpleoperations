@@ -76,7 +76,7 @@ public class Lists {
         ou.log(Level.INFO,()->""+numbers);
         ou.info("this are some implementations of arraylist......................");
 //       ARRAYS
-        String list[]=new String[10];
+        String []list=new String[10];
 //        Adding elements in the lsit
         list[0]="hello";
         list[1]="sir";
