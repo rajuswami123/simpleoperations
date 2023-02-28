@@ -6,7 +6,7 @@ class node{
     int data;
     node next;
 }
-class ll{
+class Ll{
     Logger ou = Logger.getLogger("com.api.jar");
     node head;
     void insert(int value){
@@ -57,7 +57,7 @@ public class Lists {
     public static void main(String[] args) {
         Logger ou = Logger.getLogger("com.api.jar");
 //        LINKED LIST....
-        ll ob=new ll();
+        Ll ob=new Ll();
         ob.	insert(1);
         ob.	insert(2);
         ob.insert(3);
@@ -76,11 +76,11 @@ public class Lists {
         ou.log(Level.INFO,()->""+numbers);
         ou.info("this are some implementations of arraylist......................");
 //       ARRAYS
-        String List[]=new String[10];
+        String list[]=new String[10];
 //        Adding elements in the lsit
-        List[0]="hello";
-        List[1]="sir";
+        list[0]="hello";
+        list[1]="sir";
 
-        ou.log(Level.INFO,()->"Length is "+List.length+"\n"+List[0]+" "+List[1]);
+        ou.log(Level.INFO,()->"Length is "+list.length+"\n"+list[0]+" "+list[1]);
     }
 }
