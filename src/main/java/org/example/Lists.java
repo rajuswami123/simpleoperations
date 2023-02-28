@@ -2,21 +2,21 @@ package org.example;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-class node{
+class Node{
     int data;
-    node next;
+    Node next;
 }
 class Ll{
     Logger ou = Logger.getLogger("com.api.jar");
-    node head;
+    Node head;
     void insert(int value){
-        node inode=new node();
+        Node inode=new Node();
         inode.data=value;
         if(this.head==null){
             head=inode;
         }
         else{
-            node cnode=head;
+            Node cnode=head;
             while(cnode.next !=null){
                 cnode=cnode.next;
             }
@@ -24,9 +24,9 @@ class Ll{
         }
     }
     void insert(int value,int ind) {
-        node inode = new node();
+        Node inode = new Node();
         inode.data = value;
-        node n = head;
+        Node n = head;
         for(int i=0;i<ind-1;i++){
             n=n.next;
         }
@@ -34,8 +34,8 @@ class Ll{
         n.next=inode;
     }
     void remove(int ind){
-        node n =head;
-        node n1=null;
+        Node n =head;
+        Node n1=null;
         if(ind==0){
             head=head.next;
         }
