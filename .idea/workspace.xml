@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="643e1481-21e8-4bb6-a6db-e8a8da3c987e" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DataSturcturesSO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataSturcturesSO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677568882517</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1677568933083</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677568933083</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

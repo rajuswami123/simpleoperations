@@ -32,7 +32,9 @@ public class DataSturcturesSO {
             a[b]=c;
             int j=0;
             while (j<3) {
-                ou.info("a[" + j + "]=>" + a[j]);
+                int finalJ = j;
+                int finalJ1 = j;
+                ou.log(Level.INFO,()->"a[" + finalJ + "]=>" + a[finalJ1]);
                 j++;
             }
         }
